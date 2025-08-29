@@ -11,7 +11,7 @@ int main() {
     cout << "Width: ";
     cin>>width;
     area = length * width;
-    acre = area / 43560;
+    acre = area / 43560.0;
     cout << "Your parsel is " << acre << " acres" << endl;
     
     return 0;
